@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>三亚</title>
+	<style type="text/css">
+		*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+/* 头部 */
+#header{
+	width: 100%;
+	background-color: #f4f4f4;
+	height: 32px;
+}
+#header1 {
+	width: 1200px;
+	height: 32px;
+	font-size: 10px;
+	padding-top: 6px;
+	margin: 0 auto;
+}
+#header1 p{
+	float: right;
+}
+/* 搜索栏 */
+#search{
+	width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+}
+#search img{
+	margin:18px;
+	float: left;
+}
+#search2{
+	width: 360px;
+	height: 30px;
+	float: left;
+	padding:1px;
+	border-radius:5px;
+	background-color: #cf4488;
+	position: relative;
+	top: 29px;
+	left: 30px;
+}
+#search2 input{
+	float: left;
+	width: 320px;
+	height: 30px;
+	border-radius:5px;
+	outline-style: none;
+	font-size: 13px;
+	border:0px;
+	color: #dddddd;
+}
+#search2 img{
+	float: right;
+	position: relative;
+	top: -50px;
+	left: 15px;
+}
+#search3{
+	font-size: 13px;
+	float: right;
+	color: #999999;
+	margin:30px;
+}
+/* 导航 */
+#nav-wrap{
+	width: 100%；
+	height: 40px;
+	background-color: #cf4488;
+}
+#nav{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}
+#nav p a{
+	color: #ffffff;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	width: 65px;
+	height:30px;
+	padding-top: 10px;
+	margin: -10px  0px;
+}
+#nav p a:hover{
+	background-color: #8e2e5d;
+}
+#nav1{
+	width: 1200px;
+	height: 40px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+		#big{
+			width:70%;
+			margin-left:200px;
+			margin-top:20px;
+		}
+		#bigbig{
+			border:1px solid black;
+			width:100%;
+		}
+		.img{
+			height:200px;
+			width:200px;
+			margin-right:30px;
+			margin-bottom:30px;
+			display:inline-block;
+			float:left;
+		}
+		.p{
+			height:200px;
+			width:600px;
+			display:inline-block;
+			float:left;
+		}
+		.two{
+			height:200px;
+			display:block;
+			margin:2px;
+			float:left;
+		}
+		.two li{
+			text-decoration:none;
+			display:inline-block;
+			border:1px solid orange;
+			width:80px;
+		}
+		p{
+			margin-bottom:30px;
+			margin-top:30px;
+		}
+		#flow{
+			background-color:lightpink;
+		}
+		#right{
+			height:300px;
+			width:50px;
+			position:fixed;
+			float:left;
+			margin-left:1400px;
+			margin-top:270px;
+		}
+		#right li{
+			height:50px;
+			width:50px;
+			/*margin-left:-40px;
+			background:grey;
+			float:left;
+			display:block;
+			margin-bottom:5px;*/
+		}
+		#right li img{
+			height:50px;
+			width:50px;
+		}
+		#stress{
+			height:500px;
+			width:300px;
+			float:left;
+			display:inline-block;
+			margin-top:-500px;
+		}
+		#pb{
+    		height: 30px;
+    		width:300px;
+    		overflow:hidden;
+    		background:white;
+		}
+		#p{
+			color: #cf4488;
+			width:400px;
+    		height:100%;
+    		background:white;
+			font-size:20px;
+		}
+		#jieshao{
+			height:400px;
+			width:300px;
+			margin-top:40px;
+			border:orange solid #cf4488;
+		}
+		.dian{
+			background-color:rgb(66,66,66,0.5);
+		}
+		#eee{
+			height:204px;
+			width:300px;
+			background:lightyellow;
+			margin-left:1035px;
+			margin-top:610px;
+		}
+		#eee p{
+			float:left;
+			margin:20px;
+		}
+	</style>
+</head>
+<body>
+	<div id="bigbig">
+	<!--头部-->
+	<div id="header">
+		<div id="header1">
+			让作业更简单
+			<p>
+			<a href="#" style="color: #cf4488">您好,请登录</a>&nbsp&nbsp&nbsp
+			<a href="#">免费注册</a>&nbsp&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp
+			<a href="#">消息</a>&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp
+			<a href="#">我的携程</a>&nbsp&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="#">我的订单</a>&nbsp&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="#">客服中心</a>&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="#"><img src="images/wb.png"></a>&nbsp&nbsp&nbsp&nbsp&nbsp
+			<a href="#"><img src="images/wx.png"></a></p>
+		</div>
+	</div>
+	<!-- 搜索栏 -->
+	<div id="search">
+		<img src="images/logo.png">
+		<div id="search2">
+			<input type="text" name="search" placeholder="  搜索旅行地/酒店/旅游/景点门票/交通" >
+			<a href="#"></a><img src="images/search.png"></a>
+		</div>
+		<div id="search3">
+			&nbsp&nbsp&nbsp电话：304886<br>
+			(或)&nbsp400-304-6666
+		</div>
+	</div>
+	<!--导航-->
+	<div id="nav-wrap">
+		<div id="nav">
+			<p style="padding-top: 10px">
+				<a href="#">首页</a>
+				<a href="#">酒店</a>
+				<a href="#">旅游</a>
+				<a href="#">跟团游</a>
+				<a href="#">自由行</a>
+				<a href="#">机票</a>
+				<a href="#">火车</a>
+				<a href="#">汽车·船</a>
+				<a href="#">用车</a>
+				<a href="#">门票</a>
+				<a href="#">攻略</a>
+				<a href="#">全球购</a>
+				<a href="#">礼品卡</a>
+				<a href="#">商旅</a>
+				<a href="#">邮轮</a>
+				<a href="#">目的地</a>
+				<a href="#">金融</a>
+				<a href="#">更多</a>
+			</p>
+		</div>
+	</div>
+	<div id="big" style="margin-top:;">
+		<div class="two"><div id="first">
+		<div style="background-image:url(images/1.jpg);background-repeat:no-repeat;" class="img" id="images1"/>
+		<div class="dian"><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp心动了，去这里！</a></div>
+		</div>
+		 <div class="p"><p >
+		旅游给人们带来的欢乐无穷无尽。一次愉快的旅游会使你终身难忘，走向自然，陶冶情操。2020年，希望在旅游中大家放松身心，开心快乐，哈哈哈哈！！！
+		<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#" style="color:red;font-size:20px">心动不如行动！！！马上去旅行</a><img src="images/dog.jpg" style="height:50px;width:50px"/></p>
+		<ul style="margin-top:-20px">
+		<li><a href="#">5钻</a></li>
+		<li><a href="#">优惠</a></li>
+		<li><a href="#">无物购</a></li>
+		<li><a href="#">成团保障</a></li>
+		<li><a href="#">爸妈放心游</a></li>
+		</ul>
+		</p>
+		</div></div>
+		</div>
+
+
+		<div class="two"><div id="second">
+		<div style="background-image:url(images/2.jpg);background-repeat:no-repeat;" class="img" id="images2"/>
+		<div class="dian"><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp心动了，去这里！</a></div>
+		</div>
+		<div class="p"><p >
+		给人们带来的欢乐无穷无尽。一次愉快的旅游会使你终身难忘，走向自然，陶冶情操。2020年，希望在旅游中大家放松身心，开心快乐，哈哈哈哈！！！
+		<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#" style="color:red;font-size:20px">心动不如行动！！！马上去旅行</a><img src="images/dog.jpg" style="height:50px;width:50px"/></p>
+		<ul style="margin-top:-20px">
+		<li><a href="#">5钻</a></li>
+		<li><a href="#">优惠</a></li>
+		<li><a href="#">无物购</a></li>
+		<li><a href="#">成团保障</a></li>
+		<li><a href="#">爸妈放心游</a></li>
+		</ul>
+		</p>
+		</div></div>
+		</div>
+
+
+
+		<div class="two"><div id="third"><div style="background-image:url(images/3.jpg);background-repeat:no-repeat;" class="img" id="images3"/>
+		<div class="dian"><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp心动了，去这里！</a></div>
+		</div>
+		<div class="p"><p >
+		海南三亚5日4晚跟团游，春节预售，早定早优惠，立减300！！！走向自然，陶冶情操。2020年，希望在旅游中大家放松身心，开心快乐，哈哈哈哈！！！
+		<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#" style="color:red;font-size:20px">心动不如行动！！！马上去旅行</a><img src="images/dog.jpg" style="height:50px;width:50px"/></p>
+		<ul style="margin-top:-20px">
+		<li><a href="#">5钻</a></li>
+		<li><a href="#">优惠</a></li>
+		<li><a href="#">无物购</a></li>
+		<li><a href="#">成团保障</a></li>
+		<li><a href="#">爸妈放心游</a></li>
+		</ul>
+		</p>
+		</div></div></div>
+
+		<div class="two"><div id="forth"><div style="background-image:url(images/4.jpg);background-repeat:no-repeat;" class="img" id="images4"/>
+		<div class="dian"><a href="#">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp心动了，去这里！</a></div>
+		</div>
+		<div class="p"><p >
+		海南三亚5日4晚跟团游，春节预售，早定早优惠，立减300！！！走向自然，陶冶情操。2020年，希望在旅游中大家放松身心，开心快乐，哈哈哈哈！！！
+		<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="#" style="color:red;font-size:20px">心动不如行动！！！马上去旅行</a><img src="images/dog.jpg" style="height:50px;width:50px"/></p>
+		<ul style="margin-top:-20px">
+		<li><a href="#">5钻</a></li>
+		<li><a href="#">优惠</a></li>
+		<li><a href="#">无物购</a></li>
+		<li><a href="#">成团保障</a></li>
+		<li><a href="#">爸妈放心游</a></li>
+		</ul>
+		</p>
+		</div></div></div>
+	</div>
+
+	<div id="stress">
+		<div id="pb"><div id="p" style="margin-left:">春节将至，现在预订可享五折优惠</div></div>
+		<div id="jieshao" style="background:lightpink;"><img src="images/timg.jpg" style="height:200px; width:300px" id="sanya"/>
+		三亚，简称崖，古称崖州，别称鹿城。是海南省下辖地级市，位于海南岛的最南端。三亚东邻陵水县，西接乐东县，北毗保亭县，南临南海，介于北纬18°09′′34″~18°37′′27″、东经108°56′′30″~109°48′′28″之间。三亚市陆地总面积1919.58平方千米，海域总面积6000平方千米。东西长91.6千米，南北宽51公里，下辖四个区。</div>
+	</div>
+	</div>
+	<div id="eee">
+	<p>你可能感兴趣的旅游胜地，点击了解详情：</p>
+	<p><a href="#">巴黎</a></p>
+	<p><a href="#">伦敦</a></p>
+	<p><a href="#">伦敦</a></p>
+	<p><a href="#">罗马</a></p>
+	<p><a href="#">巴厘岛</a></p>
+	<p><a href="#">克里特</a></p>
+	<p><a href="#">海南</a></p>
+	</div>
+
+	<div id="right">
+	<ul>	
+		<li class="small"><img src="images/QQ.png" id="img1"/></li>
+		<li class="small"><img src="images/weixin.png" id="img2"/></li>
+		<li class="small"><img src="images/down.png" id="img3 "/></li>
+		<li class="small"><img src="images/kefu.png" id="img4"/></li>
+	</ul>
+	</div>
+	<p class="have" style="display:none;"></p>
+	<p class="have" style="display:none;"></p>
+	<p class="have" style="display:none;"></p>
+	<p class="have" style="display:none;"></p>
+</body>
+<script type="text/javascript">
+	function getStyle(obj, attr){
+	if(obj.currentStyle){
+		return obj.currentStyle[attr];
+	} else {
+		return getComputedStyle(obj, null)[attr];
+	}
+	}
+	function animate(obj,json,callback){
+	clearInterval(obj.timer);
+	obj.timer = setInterval(function(){
+		var isStop = true;
+		for(var attr in json){
+			var now = 0;
+			if(attr == 'opacity'){
+				now = parseInt(getStyle(obj,attr)*100);
+			}else{
+				now = parseInt(getStyle(obj,attr));
+			}
+			var speed = (json[attr] - now) / 8;
+			speed = speed>0?Math.ceil(speed):Math.floor(speed);
+			var cur = now + speed;
+			if(attr == 'opacity'){
+				obj.style[attr] = cur / 100;
+			}else{
+				obj.style[attr] = cur + 'px';
+			}
+			if(json[attr] !== cur){
+				isStop = false;
+			}
+		}
+		if(isStop){
+			clearInterval(obj.timer);
+			callback&&callback();
+		}
+	}, 30)
+}
+	var header=document.getElementById("header");
+	var big=document.getElementById("big");
+	var bigbig=document.getElementById("bigbig");
+	var x=setTimeout(function(){//什么都不操作会直接进入广告部分
+        document.documentElement.scrollTop = 200;//获取top的高度
+    },3000);
+
+    top.onmousemove=function(){
+    	clearTimeout(x);//鼠标点击页面将会取消定时执行
+    }
+
+    var twoList=document.getElementsByClassName("two");
+    for(var i=0;i<twoList.length;i++){
+    	twoList[i].onmousemove=function(){
+    		this.id="flow";
+    	}
+    	twoList[i].onmouseout=function(){
+    		this.id="noflow";   	
+    	}
+    }
+  
+  		//右边客服小图标
+    	var smallList=document.getElementsByClassName("small");
+    	var img1=document.getElementById("img1");
+    	var img2=document.getElementById("img2");
+    	var img3=document.getElementById("img3");
+    	var img4=document.getElementById("img4");
+    	smallList[0].onmousemove=function(){
+    		img1.src="images/QQerweima.png";
+
+    	}
+    	smallList[0].onmouseout=function(){
+    		img1.src="images/QQ.png";
+    	}
+    	smallList[1].onmousemove=function(){
+    		img2.src="images/erweima.png";
+    	}
+    	smallList[1].onmouseout=function(){
+    		img2.src="images/weixin.png";
+    	}
+
+        smallList[2].onmousemove=function(){
+    	 	img3.src="images/dianhua.png";
+    	 }
+    	 smallList[2].onmouseout=function(){
+    	 	img3.src="images/phone.png";
+    	}
+
+    	smallList[3].onmousemove=function(){
+    		img4.src="images/dianhua.png";
+    	}
+    	smallList[3].onmouseout=function(){
+    		img4.src="images/kefu.png";
+    	}
+
+    //var p=document.getElementById("p");
+    var pb=document.getElementById("pb");
+    var flag = 0;
+    var images1=document.getElementById("images1");
+    var images2=document.getElementById("images2");
+    var images3=document.getElementById("images3");
+    var images4=document.getElementById("images4");
+
+	function notice(){
+
+	var notice = document.getElementById('p');
+
+	if(flag==0){
+
+	notice.style.color = "orange";
+	flag++;
+
+	}else if(flag==1){
+
+	notice.style.color = "#cf4488";
+
+	flag++;
+
+	}else if(flag==2){
+		notice.style.color = "yellow";
+		flag++;
+	}
+	else if(flag==3){
+		notice.style.color = "lightblue";
+		flag=0;
+	}
+	setTimeout("notice()",500);
+	}
+
+	notice();
+  var sanya=document.getElementById("sanya");
+  var i=0;
+  var y;
+  var arr=new Array("timg.jpg","timg (1).jpg","timg (2).jpg","timg (3).jpg");
+  clearInterval(y);
+  y=setInterval(function(){
+  		sanya.src="images/"+arr[i++];
+  		if(i==4){
+  			i=0;
+  		}
+  	},3000);
+</script>
+</html>
