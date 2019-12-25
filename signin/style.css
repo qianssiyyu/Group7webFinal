@@ -1,0 +1,177 @@
+#header{
+
+	height:50px;
+	background-color:  #cf4488;
+
+}
+#logo{
+	width:40px;
+	height:40px;
+	position:relative;
+	top:5px;
+	left:320px;
+}
+#signword{
+	color:white;
+	font-size: 5px;
+	position:absolute;
+	top:20px;
+	left:380px;
+	font-size: 20px;
+	
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+color:pink;
+text-decoration: underline;
+}
+ul{
+	position:relative;
+	top:5px;
+
+	
+}
+li{
+	display: inline-block;
+	color:white;
+	text-align: center;
+
+}
+#headul{
+	position:absolute;
+	top:10px;
+	left:900px;
+}
+#left{
+	margin-top: 10px;
+	float: left;
+	width:500px;
+	border-right: 1px dashed grey;
+	visibility: visible;
+	
+}
+#right{
+	margin-top: 20px;
+	margin-left: 10px;
+	float:left;
+	width:500px;
+	margin-left: 50px;
+}
+#admin{
+	color:grey;
+	margin-top:45px;
+
+}
+#password{
+	color:grey;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.h1{
+	font-size: 20px;
+	font-style: "等线";
+	text-align: center;
+}
+.h2{
+	font-size: 17px;
+	text-align: center;
+}
+p{
+	font-size: 12px;
+	text-align: center;
+}
+.link{
+	color:#cf4488;
+}
+.link:hover{
+	text-decoration: underline;
+}
+.ul2{
+	color:black;
+	font-size: 12px;
+
+}
+#biggest{
+position:absolute;
+left:130px;
+	
+}
+.divide{
+	color:grey;
+	text-align: left;
+	position:relative;
+	top:-10px;
+
+}
+.rp{
+	text-align: left;
+	margin:5px;
+
+}
+button{
+	background-color: #cf4488;
+	position:relative;
+	left:50px;
+
+}
+#forml{
+	position:relative;
+	left:160px;
+}
+.ull{
+	position:relative;
+	left:100px;
+}
+#left2{
+	border-right:1px dashed grey;
+	visibility: hidden;
+	float:left;
+	position:absolute;
+	top:10px;
+	left:130px;
+	padding-right:115px;
+}
+#ma{
+	width:150px;
+	height:150px;
+	position:relative;
+	left:50px;
+}
+#phone{
+	width:100px;
+	height:100px;
+	position:relative;
+	top:-20px;
+	visibility: hidden;
+}
+.ul3{
+	color:black;
+	font-size: 12px;
+position:relative;
+left:-20px;
+}
+#change1{
+	color:#cf4488;
+}
+#move{
+	    height:60px;
+		width:60px;
+		position: absolute;
+		left: 0px;
+		top:400px;
+		text-align: center;
+	  
+}
+#pig{
+	height:50px;
+	width:50px;
+}
+#movea{
+	color:#cf4488;
+	font-size:10px;
+}
+#movea:hover{
+	text-decoration: none;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>猪猪旅行</title>
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	 <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="header"><img id="logo" src="imageszy/logo.jpg"/><div id="signword">QQ登录</div></div>
+	<ul id="headul">
+		<li><a>QQ登录</a>|</li>
+		<li><a>授权管理</a>|</li>
+		<li><a>申请接入</a></li>
+	</ul>
+	<div id="biggest">
+		<div id="left">
+			<p class="h1">账号密码登录</p>
+			<p class="h2">推荐使用<a id="change1" onclick="change()">快速安全登录</a>，防止盗号</p>
+			<form id="forml">
+				<input id="admin" type="text" name="zhanghao" placeholder="支持QQ号/邮箱/手机号登录"><br/>
+				<input id="password" type="password" placeholder="密码"><br/>
+				<button id="signin">授权并登录</button>
+			</form>
+			<ul class="ull">
+				<li class="ul2" ><a>忘了密码？</a></li>|
+				<li class="ul2"><a>注册新账号</a></li>|
+				<li class="ul2"><a>意见反馈</a></li>
+			</ul>
+		</div>
+		<div id="left2">
+			<p class="h1" >快速安全登录</p>
+			<p class="h2">请使用<a class="link">QQ手机版</a>扫描二维码，<br/>安全登录防止盗号。</p>
+			<img  id="ma" src="imageszy/ma.jpg"/>
+			<img id="phone" src="imageszy/phone.jpg"/><br/>
+			<ul class="ul3">
+				<li class="ul2" ><a id="change2" onclick="change2()">账号密码登录</a></li>|
+				<li class="ul2"><a>注册新账号</a></li>|
+				<li class="ul2"><a>意见反馈</a></li>
+			</ul>
+		</div>
+		<div id="right">
+			<p class="rp">该网站已有超过1百万用户使用QQ登录</p>
+			<p class="divide">.......................................................</p>
+			<p class="rp"><a class="link">猪猪旅行</a>将获得以下权限：</p><br/>
+			<p class="divide">.......................................................</p>
+			<form>
+				<input type="checkbox" value="all" name="quanxian">全选<br/>
+				<p class="divide">.......................................................</p>
+				<input type="checkbox" value="portion" name="quanxian">获得您的昵称、头像、性别<br/>
+			</form>
+			<p class="rp">授权后表明你已经同意<a class="link">QQ登录服务协议</a></p>
+			<div id="move"><a id="movea"><img id="pig" src="imageszy/peiqi.jpg"/><br/>点击返回首页</a></div>
+		</div>
+	</div>
+</body>
+<script>
+	var change1=document.getElementById("change1");
+	var left2=document.getElementById("left2");
+	var left=document.getElementById("left");
+	var phone=document.getElementById("phone");
+	var btn=document.getElementById("signin");
+	signin.onclick=function(){
+			alert("登录成功！正在跳转......");
+		}
+	function change(){
+		left2.style.visibility="visible";
+		left.style.visibility="hidden";
+	}
+	function change2(){
+		left2.style.visibility="hidden";
+		left.style.visibility="visible";
+	}
+	var ma=document.getElementById("ma");
+	ma.onmouseover=function(){
+		this.style.position="relative";
+		this.style.left="-20px";
+		phone.style.visibility="visible"
+		}
+	ma.onmouseout=function(){
+		this.style.left="50px";
+		phone.style.visibility="hidden";
+	}
+	function getStyle(obj,style) {  
+		    if(obj.currentStyle) {  
+		        return obj.currentStyle[style];  
+		    } else {  
+		        return getComputedStyle(obj)[style];  
+		    }  
+		} 
+		var move = document.getElementById('move');
+		window.onload = function(){
+	var timer = setInterval(function(){
+		move.style.left = parseInt( getStyle(move,'left') ) + 1 + 'px';
+		move.style.top = parseInt( getStyle(move,'top') ) - 0.5 + 'px';
+		if(parseInt( getStyle(move,'left') ) == 1000){
+		move.style.left=0+'px';
+		move.style.top=400+'px';
+		}
+	},30);
+}
+
+</script>
+</html>
