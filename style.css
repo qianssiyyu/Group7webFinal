@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+/* 头部 */
+#header{
+	width: 100%;
+	background-color: #f4f4f4;
+	height: 32px;
+}
+#header1 {
+	width: 1200px;
+	height: 32px;
+	font-size: 10px;
+	padding-top: 6px;
+	margin: 0 auto;
+}
+#header1 p{
+	float: right;
+}
+/* 搜索栏 */
+#search{
+	width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+}
+#search img{
+	margin:18px;
+	float: left;
+}
+#search2{
+	width: 360px;
+	height: 30px;
+	float: left;
+	padding:1px;
+	border-radius:5px;
+	background-color: #cf4488;
+	position: relative;
+	top: 29px;
+	left: 30px;
+}
+#search2 input{
+	float: left;
+	width: 320px;
+	height: 30px;
+	border-radius:5px;
+	outline-style: none;
+	font-size: 13px;
+	border:0px;
+	color: #dddddd;
+}
+#search2 img{
+	float: right;
+	position: relative;
+	top: -50px;
+	left: 15px;
+}
+#search3{
+	font-size: 13px;
+	float: right;
+	color: #999999;
+	margin:30px;
+}
+/* 导航 */
+#nav-wrap{
+	width: 100%;
+	height: 40px;
+	background-color:#cf4488;
+}
+#nav{
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+}
+#nav p a{
+	color: #ffffff;
+	text-align: center;
+	float: left;
+	width: 65px;
+	height:30px;
+	padding-top: 10px;
+	margin: -10px  0px;
+}
+#nav p a:hover{
+	background-color: #8e2e5d;
+}
+#nav1{
+	width: 1200px;
+	height: 40px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+a{
+    text-decoration:none;
+}
+#container{
+    width: 1400px;
+    height: 2200px;
+    position: relative;
+    left:60px;
+    /*background: black;*/
+}
+#intro-can{
+    width:1400px;
+    height: 510px;
+    /*background-color:lightblue;*/
+}
+#introduction{
+    float: left;
+    width: 750px;
+    height: 470px;
+    /*background:yellow;*/
+}
+#zuan{
+    width: 20%;
+    position: relative;
+    top: 7px;
+}
+#txtcontainer{
+    width: 750px;
+    height:140px;
+    position: relative;
+    top: 10px;
+    background:#fef9ee;
+}
+#jian1000{
+    width: 20%;
+    display: inline-block;
+    position: relative;
+    left: 180px;
+    top: 5px;
+}
+#imgcontainer{
+    width:750px;
+    height: 187px;
+    /*background: lightsalmon;*/
+}
+.img1{
+    width: 50%;
+}
+.img2{
+    width: 26.83%;
+    height: 100%;
+    display: inline-block;
+}
+.img3{
+    width:22%;
+    height: 45%;
+    position: relative;
+    top: -92.5px;
+}
+#img4{
+    position: relative;
+    left:585px;
+    top: -88px;
+}
+#txtctn2{
+    width: 750px;
+    height: 50px;
+    background: white;
+    position: relative;
+    top:5px;
+}
+.green{
+    width: 15px;
+    position: relative;
+    top: 3px;
+}
+#calendar{
+    float: right;
+	width:630px;
+	height:480px;
+	/*background:lightgreen;*/
+}
+#monthtb{
+	text-align: center;
+	border:1px solid #999999;
+    font-size: 18px;
+	width: 100%;
+	position: relative;
+    top: 11px;
+}
+#month1{
+	font-weight: bolder;
+	padding-bottom:5px;
+	margin-bottom: 3px;
+	border-bottom: 3px solid #cf4488;
+	position: relative;
+	top:5px;
+}
+#weektb{
+	text-align: center;
+	border:1px solid #999999;
+    font-size: 18px;
+	width: 100%;
+	position: relative;
+    top: 8px;
+	background-color: lightgray;
+}
+#daytable{
+	text-align: center;
+	width: 100%;
+	height: 85.5%;
+	position: relative;
+    top: 7px;
+    border:1px solid #999999;
+    font-size: 23px;
+	font-weight: bolder;
+}
+/*#daytable tr td:hover{
+	background:lightgrey;
+}*/
+#ctn2{
+	width: 1400px;
+	height:1615px;
+	/*background: lightpink;*/
+	position: relative;
+	top:550px;/*写完前是600，全部写完后改为550，用于检查*/
+}
+#ctn2 img{
+	width:100%;
+	position: relative;
+	left:0px;
+	top: -530px;
+}
