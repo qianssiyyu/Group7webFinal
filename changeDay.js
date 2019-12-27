@@ -16,17 +16,19 @@ for(var i = 0;i<35;i++){
 }
 var now = new Date();
 var year = now.getFullYear();
-var month = now.getMonth();
+var month = now.getMonth()+1;
 var date = now.getDate();
 var day = now.getDay();//0周日1周一2周二
 var cut = date%7-1;
 var firstday;
-if(cut<0){
+console.log(year+" "+month+" "+date+" ");
+if(cut>0){
     firstday = (day-cut)%7;
 }
 else{
     firstday = (day+cut+1)%7;
 }
+console.log(firstday);
 //var days = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
 if(month == 1 || month == 3 || month ==5 || month == 7 || month ==8||month ==10||month ==12){
     for(var i = 0;i<31;i++){
@@ -38,7 +40,7 @@ if(month == 1 || month == 3 || month ==5 || month == 7 || month ==8||month ==10|
             tdtb[firstday+i].innerHTML = i+1;
         }
     }
-    for(var j = date-1;j<=31;j++){
+    for(var j = date-1;j<31;j++){
         tdtb[firstday+j].onmousemove = function(){
             this.style.backgroundColor = "lightgray";
         }
@@ -57,7 +59,7 @@ else if(month == 2){//没有判断闰年平年
             tdtb[firstday+i].innerHTML = i+1;
         }
     }
-    for(var j = date-1;j<=28;j++){
+    for(var j = date-1;j<29;j++){
         tdtb[firstday+j].onmousemove = function(){
             this.style.backgroundColor = "lightgray";
         }
@@ -76,7 +78,7 @@ else if(month==4 ||month==6 ||month==9||month==11){
             tdtb[firstday+i].innerHTML = i+1;
         }
     }
-    for(var j = date-1;j<=30;j++){
+    for(var j = date-1;j<30;j++){
         tdtb[firstday+j].onmousemove = function(){
             this.style.backgroundColor = "lightgray";
         }
