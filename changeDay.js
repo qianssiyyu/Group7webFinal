@@ -25,6 +25,9 @@ console.log(year+" "+month+" "+date+" ");
 if(cut>0){
     firstday = (day-cut)%7;
 }
+else if(cut == 0){
+    firstday = day%7;
+}
 else{
     firstday = (day+cut+1)%7;
 }
@@ -33,6 +36,8 @@ console.log(firstday);
 if(month == 1 || month == 3 || month ==5 || month == 7 || month ==8||month ==10||month ==12){
     for(var i = 0;i<31;i++){
         tdtb[i].innerHTML = null;
+    }
+    for(var i = 0;i<31;i++){
         if(i<9){
             tdtb[firstday+i].innerHTML = "0"+(i+1);
         }
